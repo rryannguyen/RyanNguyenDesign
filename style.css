@@ -1,0 +1,491 @@
+.parent {
+    width: auto
+    margin: 20px;
+    height: 0px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body {
+	position: absolute;
+	margin: 0%;
+}
+
+a:hover {
+	cursor:pointer;
+}
+
+ul {
+	width: 100%; 
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+li a {
+	color: #65CAE2;
+}
+
+.nav1 {
+	list-style: none;
+	font-family: 'Avenir-Black';
+	font-size: 20px;
+	position: fixed;
+	z-index:9999;
+	width: 50%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.nav2 { 
+	list-style: none;
+	font-family: 'Avenir-Black';
+	font-size: 20px;
+	position: fixed;
+	z-index:9998;
+	width: 83%;
+	text-align: right;
+}
+
+li a:hover {
+	background-color: yellow;
+}
+
+
+
+
+.home {
+	text-align: left;
+}
+
+.work {
+	text-align: right;
+}
+
+li a {
+	text-decoration: none;
+}
+
+h {
+	font-family: 'Avenir-Heavy';
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: #565656;
+	width: 50%;
+}
+
+.intro {
+	 background-image: url("images/background.jpg"); 
+	 width:100%;
+	 height: 100%;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 font-family: 'Avenir-Medium';
+ 	src: url(fonts/Avenir-Medium.otf);
+    color: #545454;
+    font-size: 150%; 
+    padding-bottom: 250px;
+   
+}
+
+.introText {
+	width: 35%;
+	padding-top: 20%;
+	padding-left: 15%;
+	display: block;
+	/*position: absolute;*/
+
+} 
+
+.introText a {
+	text-decoration: none;
+	color: #65CAE2;
+}
+
+.introText a:hover {
+	background-color: yellow;
+}
+
+.introText p {
+	position: relative;
+}
+
+.workContainer {
+	margin: 5%;
+}
+
+.featured {
+	display: block;
+	position: relative;
+    width: 100%;
+    padding-bottom: 35%;
+    height: 0;	
+    background-color: black;
+	background-image: url("images/hackatbrown/coverpagehack.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;	
+	transition: background-image 0.5s;
+}
+
+.featuted hover {
+	
+}
+
+.workPosts {
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+.workPosts div {
+	position: relative;
+	width: 100%;
+	padding-bottom: 45%;
+	margin-bottom: 20px;
+}
+
+.workContainer a {
+	text-decoration: none;
+}
+
+.workContainer a p {
+	font-family: 'Crimson Text', serif;
+ 	color: #95989A;
+ 	padding-bottom: 30px;
+ 	line-height: 25px; 
+ 	margin-top: 5px;
+ 	font-size: 18px;
+}
+
+
+.workContainer a:hover {
+	cursor:pointer;
+}
+
+.workPosts a {
+	display: inline-block;
+	width: 47.5%;
+	padding-right: 2%;
+	vertical-align: top;
+		letter-spacing: 0.3px;
+		font-size: 18px;
+} 
+
+/* ABOUT */
+
+.aboutContainer {
+	width: 100%;
+	padding-top: 30px;
+	display: inline-block;
+}
+
+.aboutImg {
+	width: 40%;
+	float: left;
+	margin-right: 70px;
+	padding-bottom: 30px;
+}
+
+.aboutIMG img {
+	width: 100%;
+}
+
+.aboutText h1 {
+	font-family: 'Avenir-Medium';
+    color: #545454;
+    font-size: 230%; 
+    font-weight: normal;
+}
+
+.contactText {
+	font-family: 'Avenir-Heavy';
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: #565656;
+
+}
+
+.contactText a {
+	 color: #545454;
+}
+
+.contactText a:hover {
+	background-color: yellow;
+	cursor:pointer;
+}
+
+.aboutText p {
+	width: 90%;
+	font-family: 'Crimson Text', serif;
+    color: #545454;
+    font-size: 18px; 
+    line-height: 28px;
+}
+
+
+
+/* WORK PAGE */
+
+.workPage {
+	width: 100%;
+	display: inline-block;
+}
+
+.workPage div {
+	position: relative;
+	width: 100%;
+	padding-bottom: 45%;
+	margin-bottom: 20px;
+}
+
+.workPage a {
+	display: inline-block;
+	width: 31%;
+	padding-right: 2%;
+	vertical-align: top;
+}
+
+.workPageTitle {
+	font-family: 'Avenir-Book';
+	src: url(fonts/Avenir-Book.otf);
+	letter-spacing: 2px;
+	padding-top: 50px;
+	padding-bottom: 15px;
+	color: #4a4a4a;
+
+}
+
+
+
+
+/*post*/
+
+
+.postContainer {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.cover {
+	width: 100%; 
+	padding-top: 100px;
+	position: relative;
+}
+
+.cover img {
+	width: 100%;
+}
+
+.postBody {
+	padding-top: 40px;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+.postTitle {
+
+}
+
+.postBody h1 {
+	font-family: 'Avenir-Medium';
+	width: 100%;
+	color: #454545;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	letter-spacing: 2px;
+}
+
+.postBody h2 {
+	font-family: 'Crimson Text', serif;	
+	font-size: 25px;
+	color: #454545;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.postBody p {
+	width: 70%;
+	text-align: left;
+	font-family: 'Crimson Text', serif;
+	font-size: 18px;
+ 	color: #545454;
+ 	padding-bottom: 18px;
+ 	line-height: 27px;
+ 	margin-top: 5px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+}
+
+.postBody img {
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 18px;
+}
+
+figcaption {
+	font-family: 'Crimson Text', serif;
+	color: grey;
+	font-size: 16px;
+}
+
+#verticalIMG {
+	width: 70%;
+}
+
+#paw {
+	width: 15%;
+}
+
+
+
+
+
+
+
+
+
+/* cases */
+
+
+.hackatbrown {
+	background-color: black;
+	background-image: url("images/hackatbrown/hackatbrowncover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ubervet {
+	background-color: black;
+	background-image: url("images/ubervet/ubervetcover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.visions {
+	background-color: black;
+	background-image: url("images/visions/visionscover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.friends {
+	background-color: black;
+	background-image: url("images/friends/friendscover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.magazine {
+	background-color: black;
+	background-image: url("images/magazine/magazinecover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.bauhaus {
+	background-color: black;
+	background-image: url("images/bauhaus/bauhauscover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/* media queries */
+
+
+@media only screen and (max-width: 1000px) {
+	.intro {
+		font-size: 20px;
+		height: 60%;
+		background-image: none;
+		 padding-bottom: 100px;
+	}
+	.introText {
+		width: 70%;
+		height: 100%;
+	}
+	.featured {
+		padding-bottom: 50%;
+	}
+	.workPosts a {
+		width: 100%;
+	}
+	ul {
+		margin-left: -5%;
+		margin-right: auto;
+	}
+	.nav1 {
+		margin-left: 0%;
+	}
+	.postBody {
+		width: 100%;
+	}
+	.workPage a {
+		width: 100%;
+	}
+	.aboutImg {
+	width: 100%;
+	}
+	.aboutContainer {
+		padding-top: 14%;
+	}
+}
