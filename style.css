@@ -511,5 +511,9 @@ figcaption {
 	}
 	.nav2 {
 		width: 90%;
+		font-size: 30px;
+	}
+	.nav1 {
+		font-size: 30px;
 	}
 }
