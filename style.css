@@ -498,6 +498,7 @@ figcaption {
 		margin: 3%;
 	}
 	.workPosts h {
+		font-size: 30px;
 		margin: 3%;
 	}
 	.featured h {
@@ -506,7 +507,12 @@ figcaption {
 	.workContainer p {
 		margin-left: 3%;
 	}
+	.workContainer a p {
+		font-size: 22px;
+		line-height: 26px;
+	}
 	.workContainer h {
+		font-size: 30px;
 		margin-left: 3%;
 	}
 	.nav2 {
