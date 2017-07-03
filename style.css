@@ -547,4 +547,13 @@ figcaption {
 	.contactText {
 		font-size: 25px; 
 	}
-}
+	.postContainer {
+		margin: 0%;	
+	}
+	.postBody p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.postbody h2 {
+		font-size: 30px;
+	}
