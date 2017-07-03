@@ -532,6 +532,11 @@ figcaption {
 		padding-top: 130px;
 	}
 	.aboutText h1 {
+		font-size: 30px;
 		margin: 3%;
+	}
+	.aboutText p {
+		font-size: 22px;
+		line-height: 30px;
 	}
 }
