@@ -1,4 +1,6 @@
-/* blue: 7cc8df */ 
+/* blue: 7cc8df 
+	onloading: badce6;
+*/ 
 
 .parent {
     width: auto
@@ -165,7 +167,7 @@ h {
     width: 100%;
     padding-bottom: 35%;
     height: 0;	
-    background-color: #7cc8df;
+    background-color: #badce6;
 	background-image: url("images/hackatbrown/coverpagehack.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -403,7 +405,7 @@ figcaption {
 
 
 .hackatbrown {
-	background-color: #7cc8df;
+	background-color: #badce6;
 	background-image: url("images/hackatbrown/hackatbrowncover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -411,7 +413,7 @@ figcaption {
 }
 
 .ubervet {
-	background-color: #7cc8df;
+	background-color: #badce6;
 	background-image: url("images/ubervet/ubervetcover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -419,7 +421,7 @@ figcaption {
 }
 
 .visions {
-	background-color: #7cc8df;
+	background-color: #badce6;
 	background-image: url("images/visions/visionscover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -427,7 +429,7 @@ figcaption {
 }
 
 .friends {
-	background-color: #7cc8df;
+	background-color: #badce6;
 	background-image: url("images/friends/friendscover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -435,7 +437,7 @@ figcaption {
 }
 
 .magazine {
-	background-color: #7cc8df;
+	background-color: #badce6;
 	background-image: url("images/magazine/magazinecover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -443,7 +445,7 @@ figcaption {
 }
 
 .bauhaus {
-	background-color: #7cc8df;
+	background-color: #badce6;
 	background-image: url("images/bauhaus/bauhauscover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
