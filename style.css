@@ -504,12 +504,16 @@ figcaption {
 	.featured h {
 		margin: 3%;
 	}
+	.featured a p {
+		font-size: 22px;
+		line-height: 28px;
+	}
 	.workContainer p {
 		margin-left: 3%;
 	}
 	.workContainer a p {
 		font-size: 22px;
-		line-height: 26px;
+		line-height: 28px;
 	}
 	.workContainer h {
 		font-size: 30px;
