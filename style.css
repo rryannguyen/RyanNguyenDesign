@@ -453,6 +453,9 @@ figcaption {
 
 
 @media only screen and (max-width: 1000px) {
+	.body {
+		margin: 0%;
+	}
 	.intro {
 		font-size: 30px;
 		height: 60%;
@@ -505,5 +508,8 @@ figcaption {
 	}
 	.workContainer h {
 		margin-left: 3%;
+	}
+	.nav2 {
+		width: 90%;
 	}
 }
