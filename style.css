@@ -564,3 +564,6 @@ figcaption {
 	.postbody h2 {
 		font-size: 40px;
 	}
+	#verticalIMG {
+	width: 90%;
+}
