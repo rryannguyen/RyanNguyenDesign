@@ -165,7 +165,7 @@ h {
     width: 100%;
     padding-bottom: 35%;
     height: 0;	
-    background-color: black;
+    background-color: #7cc8df;
 	background-image: url("images/hackatbrown/coverpagehack.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -550,6 +550,7 @@ figcaption {
 		font-size: 25px; 
 	}
 	.postContainer {
+		padding-top: 60px;
 		margin: 0%;	
 	}
 	.postbody h1 {
