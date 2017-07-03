@@ -550,10 +550,14 @@ figcaption {
 	.postContainer {
 		margin: 0%;	
 	}
+	.postBody {
+		width: 90%;
+	}
 	.postBody p {
-		font-size: 22px;
-		line-height: 30px;
+		width: 100%;
+		font-size: 25px;
+		line-height: 35px;
 	}
 	.postbody h2 {
-		font-size: 30px;
+		font-size: 40px;
 	}
