@@ -516,4 +516,8 @@ figcaption {
 	.nav1 {
 		font-size: 40px;
 	}
+	.workPageTitle {
+		padding-left: 7%;
+		padding-top: 30%;
+	}
 }
