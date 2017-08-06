@@ -4,7 +4,7 @@
 
 
 
-#myBtn {
+.myBtn {
   /*display: none;*/
   font-family: 'Avenir-black';
   text-decoration: none;
@@ -21,7 +21,7 @@
   border-radius: 10px;
 }
 
-#myBtn:hover {
+.myBtn:hover {
   background-color: #555;
 }
 
