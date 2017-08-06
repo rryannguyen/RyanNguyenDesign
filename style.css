@@ -545,11 +545,19 @@ figcaption {
 }
 
 .calgary {
-background-color: black;
-background-image: url("images/uber/calgary/calgarycover.jpg"); 
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+	background-color: #badce6;
+	background-image: url("images/uber/ubercover.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.emoji {
+	background-color: #badce6;
+	background-image: url("images/uber/emoji/emojicover.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 
