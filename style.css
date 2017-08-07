@@ -2,7 +2,26 @@
 	onloading: badce6;
 */ 
 
-
+.overlay{
+  background-color:rgba(39,206,206,.5);
+  color:white;
+  border: none;
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:100%;
+  height:100%;
+  /*animate*/
+  transition:all .3s ease-in;
+   
+}
+/* hover effect*/
+.child:hover .overlay{
+  opacity:0;
+}
 
 .myBtn {
   /*display: none;*/
@@ -87,7 +106,13 @@
     -moz-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+   	filter: grayscale(30%);
 }
+
+.child:hover {
+	filter: grayscale(0%);
+}
+
 
 
 .parent:hover .child, .parent:focus .child {
@@ -679,5 +704,12 @@ figcaption {
 	}
 	#verticalIMG {
 	width: 90%;
+	}
+	.child {
+		filter: grayscale(0%);
+	}
+	.overlay {
+		background-color:rgba(39,206,206,.0);
+	}
 }
 
