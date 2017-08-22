@@ -604,6 +604,14 @@ figcaption {
 	background-position: center;
 }
 
+.reflection {
+	background-color: #badce6;
+	background-image: url("images/uber/reflection/reflectioncover.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 
 
 /* media queries */
