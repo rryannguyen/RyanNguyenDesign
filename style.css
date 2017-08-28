@@ -148,6 +148,11 @@ body {
 	margin: 0%;
 }
 
+a {
+	color: #7cc8df;
+	text-decoration: none;
+}
+
 a:hover {
 	cursor:pointer;
 }
