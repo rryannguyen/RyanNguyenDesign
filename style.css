@@ -262,10 +262,10 @@ h {
 	display: block;
 	position: relative;
     width: 100%;
-    padding-bottom: 35%;
+    padding-bottom: 40%;
     height: 0;	
     background-color: #badce6;
-	background-image: url("images/hackatbrown/coverpagehack.jpg"); 
+	background-image: url("images/uber/ubercover.gif"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -575,6 +575,16 @@ figcaption {
 	background-size: cover;
 	background-position: center;
 }
+
+.uber {
+	background-color: #badce6;
+	background-image: url("images/uber/ubercover.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Uber */
 
 .calgary {
 	background-color: #badce6;
