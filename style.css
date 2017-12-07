@@ -552,6 +552,14 @@ figcaption {
 	background-position: center;
 }
 
+.vietnam {
+	background-color: #badce6;
+	background-image: url("images/vietnam/vietnamcover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .friends {
 	background-color: #badce6;
 	background-image: url("images/friends/friendscover.jpg"); 
