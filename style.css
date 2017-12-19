@@ -6,14 +6,16 @@
 
 
 /* Scale canvas with resize attribute to full size */
+
 canvas[resize] {
     width: 100%;
-    height: 965px;
+  	height: 115vh;
     position: absolute;
 }
 
-
-
+#introContainer {
+	height: auto;
+}
 
 .overlay{
   background-color:rgba(39,206,206,.5);
@@ -231,7 +233,7 @@ h {
 	width: 50%;
 }
 
-.intro {
+#intro {
 	 background-image: url("images/background.jpg"); 
 	 width:100%;
 	 height: 100%;
