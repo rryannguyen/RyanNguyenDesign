@@ -557,6 +557,14 @@ figcaption {
 	background-position: center;
 }
 
+.triportreat {
+	background-color: #badce6;
+	background-image: url("images/uber/halloween/halloweenCover.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .ubervet {
 	background-color: #badce6;
 	background-image: url("images/ubervet/ubervetcover.jpg"); 
