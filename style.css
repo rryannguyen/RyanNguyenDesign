@@ -557,14 +557,6 @@ figcaption {
 	background-position: center;
 }
 
-.triportreat {
-	background-color: #badce6;
-	background-image: url("images/uber/halloween/halloweenCover.gif"); 
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
 .ubervet {
 	background-color: #badce6;
 	background-image: url("images/ubervet/ubervetcover.jpg"); 
@@ -673,7 +665,7 @@ figcaption {
 	.body {
 		margin: 0%;
 	}
-	.intro {
+	#intro {
 		font-size: 30px;
 		height: 60%;
 		background-image: none;
