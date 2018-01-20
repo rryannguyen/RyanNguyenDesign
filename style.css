@@ -426,6 +426,26 @@ h {
 
 }
 
+.photoPage {
+width: 70%;
+display: inline-block;
+}
+
+.photoPage div {
+position: relative;
+width: 100%;
+padding-bottom: 45%;
+margin-bottom: 20px;
+}
+
+.photoPage a {
+display: inline-block;
+width: 31%;
+padding-right: 2%;
+vertical-align: top;
+margin-bottom: 30px;
+text-decoration: none;
+}
 
 
 /* UBER PAGE */
@@ -607,6 +627,14 @@ figcaption {
 .bauhaus {
 	background-color: #badce6;
 	background-image: url("images/bauhaus/bauhauscover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.photography {
+	background-color: #badce6;
+	background-image: url("images/photography/photographycover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
