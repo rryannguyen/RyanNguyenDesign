@@ -577,6 +577,14 @@ figcaption {
 	background-position: center;
 }
 
+.spot {
+	background-color: #badce6;
+	background-image: url("images/spot/spotcover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .triportreat {
 	background-color: #badce6;
 	background-image: url("images/uber/halloween/halloweenCover.gif"); 
