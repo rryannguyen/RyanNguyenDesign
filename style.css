@@ -304,7 +304,7 @@ h {
 }
 
 
-
+ 
 .workPosts div {
 	position: relative;
 	width: 100%;
@@ -531,7 +531,7 @@ text-decoration: none;
 	font-family: 'Crimson Text', serif;
 	font-size: 18px;
  	color: #545454;
- 	padding-bottom: 18px;
+ 	padding-bottom: 5px;
  	line-height: 27px;
  	margin-top: 5px;
  	margin-right: auto;
@@ -596,6 +596,14 @@ figcaption {
 .peergrade {
 	background-color: #badce6;
 	background-image: url("images/peergrade/peergradecover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.aglet {
+	background-color: #badce6;
+	background-image: url("images/aglet/agletcover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
