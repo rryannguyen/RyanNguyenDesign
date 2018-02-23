@@ -131,7 +131,6 @@ canvas[resize] {
 */
 
 
-
 .parent:hover .child, .parent:focus .child {
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
