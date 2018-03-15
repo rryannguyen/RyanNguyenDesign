@@ -859,5 +859,8 @@ figcaption {
 	canvas[resize] {
 		display: none; 
 	}
+	#intro {
+		height: 80vh;
+	}
 	}
 
