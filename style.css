@@ -728,7 +728,7 @@ figcaption {
 /* media queries */
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 900px) {
 	.body {
 		margin: 0%;
 	}
