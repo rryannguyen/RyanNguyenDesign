@@ -854,3 +854,10 @@ figcaption {
 	}
 }
 
+
+@media only screen and (max-width: 900px) {
+	canvas[resize] {
+		display: none; 
+	}
+	}
+
