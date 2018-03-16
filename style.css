@@ -728,7 +728,7 @@ figcaption {
 /* media queries */
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
 	.body {
 		margin: 0%;
 	}
@@ -855,12 +855,12 @@ figcaption {
 }
 
 
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
 	canvas[resize] {
 		display: none; 
 	}
 	#intro {
 		height: 80vh;
 	}
-	}
+	} */
 
