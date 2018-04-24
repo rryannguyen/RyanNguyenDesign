@@ -17,12 +17,17 @@
 	height: 300%;
 }
 
+.packBody p:hover {
+	outline: #0F94CE solid 4px;
+	outline-style: dotted;
+}
+
 .sans {
 	font-family: 'Avenir-Book';
 }
 
 .random {
-  position: absolute;
+  position: relative;
 }
 
 .packBody img {
@@ -36,7 +41,10 @@
 
 
 
-----------
+
+
+
+
 
 
 
