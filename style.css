@@ -1,6 +1,8 @@
 .packContainer {
 	margin: 100px;
 	font-family: 'Cormorant Garamond';
+	cursor: url(images/package/blinkfast.gif) 40 21, auto;
+	padding-bottom: 100px;
 }
 
 .packBody {
@@ -9,12 +11,18 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+	position: relative;
 }
+
 
 .randoIMG {
 	position: relative;
 	width: 800px;
 	height: 300%;
+}
+
+.packBody p {
+	width: 60%; 
 }
 
 .packBody p:hover {
@@ -37,6 +45,11 @@
 .packBody img:hover {
 	outline: #0F94CE solid 4px;
 	outline-style: dotted;
+}
+
+.endPara {
+	z-index:0;
+	position: relative;
 }
 
 
