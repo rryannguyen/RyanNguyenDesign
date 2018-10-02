@@ -241,6 +241,13 @@ ul {
 	overflow: hidden;
 	margin-left: 5%;
 	margin-right: 5%;
+	text-align: left;
+	width: 70%;
+	text-align: left;
+	font-family: 'Crimson Text', serif;
+	font-size: 18px;
+	line-height: 27px;
+	color: #545454;
 }
 
 li a {
@@ -348,12 +355,13 @@ h {
     padding-bottom: 40%;
     height: 0;	
     background-color: #badce6;
-	background-image: url("images/uber/ubercover.gif"); 
+	background-image: url("images/microsoft/microsoftcoverhd.gif"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	margin-bottom: 20px;	
 	transition: background-image 0.5s;
+	box-shadow: 2px 2px 10px #ededed;
 }
 
 .featuted hover {
@@ -447,7 +455,7 @@ h {
 	cursor:pointer;
 }
 
-.aboutText p {
+.aboutText p{
 	width: 90%;
 	font-family: 'Crimson Text', serif;
     color: #545454;
@@ -602,8 +610,8 @@ text-decoration: none;
 
 .postBody img {
 	width: 100%;
-	padding-bottom: 20px;
-	padding-top: 18px;
+	margin-bottom: 20px;
+	margin-top: 18px;
 }
 
 figcaption {
@@ -638,6 +646,15 @@ figcaption {
 	background-size: cover;
 	background-position: center;
 }
+
+.microsoft {
+	background-color: #badce6;
+	background-image: url("images/microsoft/microsoftcoverhd.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 
 .buildingbridges {
 	background-color: #badce6;
@@ -690,6 +707,14 @@ figcaption {
 .ubervet {
 	background-color: #badce6;
 	background-image: url("images/ubervet/ubervetcover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.fontmaker {
+	background-color: #badce6;
+	background-image: url("images/microsoft/fmcover.gif"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -756,6 +781,23 @@ figcaption {
 .calgary {
 	background-color: #badce6;
 	background-image: url("images/uber/calgary/ubercover.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.inkstructor {
+	background-color: #badce6;
+	background-image: url("images/microsoft/inkstructorcover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.msreflection {
+	background-color: #badce6;
+	background-image: url("images/microsoft/smile.gif"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
