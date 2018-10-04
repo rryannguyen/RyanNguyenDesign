@@ -552,6 +552,10 @@ text-decoration: none;
 	margin-right: 5%;
 }
 
+.postContainer ul {
+	margin-top: -5px;
+}
+
 .cover {
 	width: 100%; 
 	padding-top: 100px;
@@ -864,6 +868,7 @@ figcaption {
 	ul {
 		margin-left: -5%;
 		margin-right: auto;
+		padding-top: 20px;
 	}
 	.nav1 {
 		margin-left: 0%;
