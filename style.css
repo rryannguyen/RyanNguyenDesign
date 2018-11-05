@@ -782,6 +782,34 @@ figcaption {
 
 /* Uber */
 
+
+.linkedinresearch {
+	background-color: #badce6;
+	background-image: url("images/linkedin/linkedinresearch.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.linkedinideation {
+	background-color: #badce6;
+	background-image: url("images/linkedin/linkedinideation.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.linkedindesign {
+	background-color: #badce6;
+	background-image: url("images/linkedin/linkedindesign.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
 .calgary {
 	background-color: #badce6;
 	background-image: url("images/uber/calgary/ubercover.gif"); 
