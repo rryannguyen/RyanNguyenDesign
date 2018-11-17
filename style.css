@@ -678,6 +678,14 @@ figcaption {
 /* cases */
 
 
+.linkedin {
+	background-color: #badce6;
+	background-image: url("images/linkedin/linkedincover2.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .hackatbrown {
 	background-color: #badce6;
 	background-image: url("images/hackatbrown/hackatbrowncover.jpg"); 
