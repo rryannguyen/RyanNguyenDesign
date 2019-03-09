@@ -10,6 +10,12 @@
   box-shadow: 2px 2px 10px #ededed;
 }
 
+#SaigonTitle {
+	font-family: 'ClassiqueSaigon';
+	src: url("fonts/ClassiqueSaigon.ttf") format("ttf"),
+	font-size: 100px;
+}
+
 .linkedIntopnav a {
   float: left;
   color: black;
