@@ -394,7 +394,7 @@ h {
     padding-bottom: 40%;
     height: 0;	
     background-color: #badce6;
-	background-image: url("images/microsoft/microsoftcoverhd.gif"); 
+	background-image: url("images/overlooked/overlookedcover.gif"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -680,6 +680,15 @@ figcaption {
 
 
 /* cases */
+
+
+.overlooked {
+	background-color: #badce6;
+	background-image: url("images/overlooked/overlookedcover.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 
 
 .linkedin {
