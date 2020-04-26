@@ -651,6 +651,10 @@ text-decoration: none;
  	margin-left: auto;
 }
 
+.graytext {
+	color: #a5a5a5; 
+}
+
 .postBody img {
 	width: 100%;
 	margin-bottom: 20px;
@@ -710,6 +714,14 @@ figcaption {
 .microsoft {
 	background-color: #badce6;
 	background-image: url("images/microsoft/microsoftcoverhd.gif"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.mosex {
+	background-color: #badce6;
+	background-image: url("images/mosex/mosexcover.gif"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
