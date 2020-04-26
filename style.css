@@ -1,4 +1,4 @@
-/* LinkedIn Nav*/
+3dillukedIn Nav*/
 
 .linkedIntopnav {
   overflow: hidden;
@@ -660,7 +660,7 @@ text-decoration: none;
 figcaption {
 	font-family: 'Crimson Text', serif;
 	color: grey;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 #verticalIMG {
@@ -751,6 +751,14 @@ figcaption {
 .aglet {
 	background-color: #badce6;
 	background-image: url("images/aglet/agletcover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.illustrations {
+	background-color: #badce6;
+	background-image: url("images/illustrations/illustrationscover.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
